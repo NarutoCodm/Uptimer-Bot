@@ -15,14 +15,14 @@ module.exports = {
     var url = args[0];
 
     // CHECKS THE URL IF PROVIDED OR WRONG
-    if (!url) return message.reply("<a:nahin:885441031171112990> Please provide a project url!");
+    if (!url) return message.reply("<a:867324405561425941:934812212936187965>  Please provide a project url!");
     if (!validUrl.isUri(url)) {
-      return message.channel.send("<a:nahin:885441031171112990> Please provide a vaild url!");
+      return message.channel.send("<a:867324405561425941:934812212936187965>  Please provide a vaild url!");
     }
 
     // LOADING
     let waitEmbed = new MessageEmbed().setDescription(
-      "<a:portal:885440593063477248> Please wait..."
+      "<a:5f96b13bdc594edf89754f99d99b6791:934812214005727232> Please wait..."
     );
     var messageAlert = await message.channel.send(message.author, waitEmbed);
 
@@ -55,7 +55,7 @@ module.exports = {
 
         // NOTIFIES WITH AN EMBED THAT PROJECT IS SUCCESSFULLY REGISTERED
         let embed = new MessageEmbed()
-          .setTitle("<a:tickspin:885465759675990066> Added Succesfully!")
+          .setTitle("<a:867324408308695070:934812212101546024>  Added Succesfully!")
           .setDescription("Thanks for using Uptimer")
           .setColor(colors.uptime)
           .setTimestamp();
@@ -66,10 +66,10 @@ module.exports = {
       // RUNS WHEN THE PROJECT IS ALREADY IN DATABASE
       let embed = new MessageEmbed()
         .setTitle(
-          "<a:nahin:885441031171112990> Project is already Registered!"
+          "<a:867324405561425941:934812212936187965>  Project is already Registered!"
         )
         .setDescription(
-          "<a:nahin:885441031171112990> The project you're trying to register is already in the Database"
+          "<a:867324405561425941:934812212936187965>  The project you're trying to register is already in the Database"
         )
         .setColor(colors.uptime)
         .setTimestamp();
@@ -89,3 +89,4 @@ module.exports = {
  * Please mention Him , when using this Code!
  * @INFO
  */
+
