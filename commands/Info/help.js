@@ -16,9 +16,9 @@ module.exports = {
     .setTitle("HI I Am Uptimer")
     .setDescription(`**I Am Here To Uptime Your Projects So Do +howtouse For More Info Of How To Use Me 
 I Am Coded By The Crazy#0070 
-Invite Me -> [Invite Uptimer](https://discord.com/api/oauth2/authorize?client_id=876098640169558078&permissions=8&scope=bot)
-Support Server -> [Need Support](https://discord.gg/3D4PkVyrUt)
-Youtube -> [My Developer Youtube](https://youtube.com/channel/UCNsN0YD5FG2EoK4fEHtcEyA)
+Invite Me -> [Invite Uptimer](https://www.youtube.com/channel/UCpW4KtW2TLxWi_B0WgDfWEQ)
+Support Server -> [Need Support](https://www.youtube.com/channel/UCpW4KtW2TLxWi_B0WgDfWEQ)
+Youtube -> [My Developer Youtube](https://www.youtube.com/channel/UCpW4KtW2TLxWi_B0WgDfWEQ)
 
 > Here Are My Commands**`); 
 
@@ -27,11 +27,11 @@ Youtube -> [My Developer Youtube](https://youtube.com/channel/UCNsN0YD5FG2EoK4fE
     .setImage('')
     .setTitle('Uptimer Commands')
     .setDescription(`
-> <a:uptimer:928262503371247637> monitor
-> <a:uptimer:928262503371247637> projects
-> <a:uptimer:928262503371247637> remove
-> <a:uptimer:928262503371247637> total
-> <a:uptimer:928262503371247637> stats`)
+> <a:uptimer:949582581735776336> monitor
+> <a:uptimer:949582581735776336> projects
+> <a:uptimer:949582581735776336> remove
+> <a:uptimer:949582581735776336> total
+> <a:uptimer:949582581735776336> stats`)
       ;
 
     const embed2 = new Discord.MessageEmbed()
@@ -39,14 +39,14 @@ Youtube -> [My Developer Youtube](https://youtube.com/channel/UCNsN0YD5FG2EoK4fE
     .setImage('')
     .setTitle('  **Info Commands**')
     .setDescription(`
-> <a:informationD:928287313711218708> botinfo 
-> <a:informationD:928287313711218708> developer
-> <a:informationD:928287313711218708> roleinfo 
-> <a:informationD:928287313711218708> serverinfo 
-> <a:informationD:928287313711218708> howtouse 
-> <a:informationD:928287313711218708> userinfo
-> <a:informationD:928287313711218708> uptime
-> <a:informationD:928287313711218708> invite `)
+> <a:informationD:949583997627945000> botinfo 
+> <a:informationD:949583997627945000> developer
+> <a:informationD:949583997627945000> roleinfo 
+> <a:informationD:949583997627945000> serverinfo 
+> <a:informationD:949583997627945000> howtouse 
+> <a:informationD:949583997627945000> userinfo
+> <a:informationD:949583997627945000> uptime
+> <a:informationD:949583997627945000> invite `)
     ;
     
     //--------------------EMBEDS------------------------
